@@ -1,0 +1,28 @@
+################################
+## White list based gitignore ##
+################################
+
+# forbidden
+*
+.*
+
+# allowed
+!.gitea/
+!.gitea/issue_template/
+!.gitea/workflows/
+!*.yaml
+!src/
+
+# forbidden anywhere
+.vscode/
+build/
+
+# allowed
+!Makefile
+!CMakeLists.txt
+!*.c
+!*.md
+!*.h
+!.gitignore
+!.gitattributes
+
